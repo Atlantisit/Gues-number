@@ -28,7 +28,7 @@ while True:
             print ("Wow! You right!")
             break
     play = input("Wanna play again? Press Y or N")
-    if "Y" in play:
+    if "Y" in play.upper():
         continue
     else:
         print ("See you")
